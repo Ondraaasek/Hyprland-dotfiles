@@ -20,3 +20,4 @@ My reccomendations:
   nwg-look
   vscode
   some intelligence
+  
