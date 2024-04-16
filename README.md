@@ -19,5 +19,8 @@ My reccomendations:
   - wlogout
   - nwg-look
   - vscode
+  - pulseaudio
+  - wireplumber
+  - a bit of skill
   - some intelligence
   
