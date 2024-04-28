@@ -7,10 +7,10 @@
  **/
 
 * {
-    background:     rgba(15, 15, 15, 0.5);
+    background:     #000000FF;
     background-alt: #101010FF;
     foreground:     #FFFFFFFF;
-    selected:       #FFFFFFFF;
+    selected:       #62AEEFFF;
     active:         #98C379FF;
     urgent:         #E06B74FF;
 }
