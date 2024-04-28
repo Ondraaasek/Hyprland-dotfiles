@@ -1,5 +1,5 @@
 window {
-  background-color: #171717;
+  background-color: rgba(10, 10, 10, 0.5);
 }
 
 * {
@@ -12,7 +12,7 @@ window {
 }
 
 #input {
-  background-color: #262626;
+  background-color: rgba(10, 10, 10, 0.5);
   outline: none;
   box-shadow: none;
   border: 0;
