@@ -9,6 +9,7 @@ Dependency list:
   - nvim
   - ranger
   - wofi
+  - rofi
   - zsh
   - oh-my-zsh
   - powerlevel10k
