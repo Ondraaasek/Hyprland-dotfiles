@@ -24,4 +24,5 @@ My reccomendations:
   - wireplumber
   - a bit of skill
   - some intelligence
-  
+
+![screenshot](hyprland-screenshot.png)
