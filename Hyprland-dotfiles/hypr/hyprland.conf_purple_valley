@@ -59,7 +59,7 @@ general {
     gaps_in = 5
     gaps_out = 20 
     border_size = 2
-    col.active_border = rgba(ffffffff)    #rgba(881dccaa) rgba(ffa62daa) 45deg
+    col.active_border = rgba(881dccaa) rgba(ffa62daa) 45deg
     col.inactive_border = rgba(595959aa)
 
     layout = dwindle
@@ -71,12 +71,12 @@ general {
 decoration {
     # See https://wiki.hyprland.org/Configuring/Variables/ for more
 
-    rounding = 10
+    rounding = 3
     
     blur {
-        enabled = false
-        size = 5
-        passes = 2
+        enabled = true
+        size = 3
+        passes = 1
     }
 
     drop_shadow = yes
@@ -90,15 +90,15 @@ animations {
 
     # Some default animations, see https://wiki.hyprland.org/Configuring/Animations/ for more
 
-    #bezier = myBezier, 0.05, 0.9, 0.1, 1.05
+    bezier = myBezier, 0.05, 0.9, 0.1, 1.05
 
-    #animation = windows, 1, 7, myBezier
-    #animation = windowsOut, 1, 7, default, popin 80%
-    #animation = border, 1, 10, default
-    #animation = borderangle, 1, 8, default
-    #animation = fade, 1, 7, default
-    #animation = workspaces, 1, 6, default
-#}
+    animation = windows, 1, 7, myBezier
+    animation = windowsOut, 1, 7, default, popin 80%
+    animation = border, 1, 10, default
+    animation = borderangle, 1, 8, default
+    animation = fade, 1, 7, default
+    animation = workspaces, 1, 6, default
+}
 
 # ▄▀█ █▄░█ █ █▀▄▀█ ▄▀█ ▀█▀ █ █▀█ █▄░█
 # █▀█ █░▀█ █ █░▀░█ █▀█ ░█░ █ █▄█ █░▀█
@@ -107,23 +107,23 @@ animations {
 #
 #  # █▄▄ █▀▀ ▀█ █ █▀▀ █▀█   █▀▀ █░█ █▀█ █░█ █▀▀
 #  # █▄█ ██▄ █▄ █ ██▄ █▀▄   █▄▄ █▄█ █▀▄ ▀▄▀ ██▄
-  bezier = wind, 0.05, 0.9, 0.1, 1.05
-  bezier = winIn, 0.1, 1.1, 0.1, 1
-  bezier = winOut, 0.3, -0.3, 0, 1
-  bezier = liner, 1, 1, 1, 1
+#  bezier = wind, 0.05, 0.9, 0.1, 1.05
+#  bezier = winIn, 0.1, 1.1, 0.1, 1.1
+#  bezier = winOut, 0.3, -0.3, 0, 1
+#  bezier = liner, 1, 1, 1, 1
 #
 #  
 #  #▄▀█ █▄░█ █ █▀▄▀█ ▄▀█ ▀█▀ █ █▀█ █▄░█
 #  #█▀█ █░▀█ █ █░▀░█ █▀█ ░█░ █ █▄█ █░▀█
-  animation = windows, 1, 6, wind, slide
-  animation = windowsIn, 1, 6, winIn, slide
-  animation = windowsOut, 1, 5, winOut, slide
-  animation = windowsMove, 1, 5, wind, slide
-  animation = border, 1, 1, liner
-  animation = borderangle, 1, 30, liner, loop
-  animation = fade, 1, 10, default
-  animation = workspaces, 1, 5, wind
-}
+#  animation = windows, 1, 6, wind, slide
+#  animation = windowsIn, 1, 6, winIn, slide
+#  animation = windowsOut, 1, 5, winOut, slide
+#  animation = windowsMove, 1, 5, wind, slide
+#  animation = border, 1, 1, liner
+#  animation = borderangle, 1, 30, liner, loop
+#  animation = fade, 1, 10, default
+#  animation = workspaces, 1, 5, wind
+#}
 
 dwindle {
     # See https://wiki.hyprland.org/Configuring/Dwindle-Layout/ for more
@@ -167,7 +167,7 @@ $mainMod = SUPER
 # Example binds, see https://wiki.hyprland.org/Configuring/Binds/ for more
 bind = $mainMod, Q, exec, $terminal
 bind = $mainMod SHIFT, C, killactive, 
-bind = $mainMod SHIFT, M, exec, powermenu 
+bind = $mainMod SHIFT, M, exit, 
 bind = $mainMod, F, exec, $fileManager
 bind = $mainMod, SPACE, togglefloating, 
 bind = $mainMod, D, exec, $menu
@@ -181,21 +181,6 @@ bind = $mainMod, left, movefocus, l
 bind = $mainMod, right, movefocus, r
 bind = $mainMod, up, movefocus, u
 bind = $mainMod, down, movefocus, d
-
-bind = $mainMod SHIFT, left, swapwindow, l
-bind = $mainMod SHIFT, right, swapwindow, r
-bind = $mainMod SHIFT, up, swapwindow, u 
-bind = $mainMod SHIFT, down, swapwindow, d
-
-bind = $mainMod CTRL, left, resizeactive, -60 0
-bind = $mainMod CTRL, right, resizeactive, 60 0
-bind = $mainMod CTRL, up, resizeactive, 0 -60
-bind = $mainMod CTRL, down, resizeactive, 0 60
-
-bind = $mainMod SHIFT, left, movewindow, l
-bind = $mainMod SHIFT, right, movewindow, r
-bind = $mainMod SHIFT, up, movewindow, u 
-bind = $mainMod SHIFT, down, movewindow, d
 
 # Switch workspaces with mainMod + [0-9]
 bind = $mainMod, 1, workspace, 1
