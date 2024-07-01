@@ -17,7 +17,7 @@ Dependency list:
   - wlogout
   - nemo
 
-My reccomendations:
+My recommendations:
   - nwg-look
   - vscode
   - pulseaudio
