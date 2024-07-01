@@ -1,14 +1,15 @@
 window {
   background-color: rgba(10, 10, 10, 0.5);
+  outline: rgba(255, 255, 255, 1.0);
 }
 
 * {
-  font-family: "Fira Code";
+  font-family: "JetBrainsMono Nerd Font";
   color: #fff;
 }
 
 #scroll {
-  padding: 0.5rem;
+  padding: 3.5rem;
 }
 
 #input {
@@ -23,7 +24,7 @@ window {
 
 #inner-box {
   margin: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 #img {

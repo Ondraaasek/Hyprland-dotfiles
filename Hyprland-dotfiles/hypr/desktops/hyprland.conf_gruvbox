@@ -19,7 +19,7 @@ monitor=,2560x1440@144,auto,auto, bitdepth, 10
 # See https://wiki.hyprland.org/Configuring/Keywords/ for more
 
 # Execute your favorite apps at launch
-exec-once = waybar_loop & swww-daemon & ~/daemons/killpipewire.sh
+exec-once = waybar & swww-daemon 
 #exec = pkill pipewire
 # Source a file (multi-file configs)
 # source = ~/.config/hypr/myColors.conf
@@ -57,15 +57,14 @@ general {
     # See https://wiki.hyprland.org/Configuring/Variables/ for more
 
     gaps_in = 5
-    gaps_out = 20 
-    border_size = 3
-    col.active_border =rgba(881dccaa) rgba(ffa62daa) 45deg
-    col.inactive_border = rgba(595959aa)
-    #col.active_border = rgba(ffffffff) rgba(99999999) 45deg
-    #col.active_border = rgba(a7b333ee) rgba(a6e194ee) rgba(dfac4eee) 45deg
-    #col.inactive_border = rgba(43413Bee)
+    gaps_out = 10 
+    border_size = 2
+    #col.active_border =rgba(881dccaa) rgba(ffa62daa) 45deg
+    #col.inactive_border = rgba(595959aa)
+    col.active_border = rgba(a7b333ee) rgba(a6e194ee) rgba(dfac4eee) 45deg
+    col.inactive_border = rgba(43413Bee)
 
-    layout = master
+    layout = dwindle
 
     # Please see https://wiki.hyprland.org/Configuring/Tearing/ before you turn this on
     allow_tearing = false
@@ -74,7 +73,7 @@ general {
 decoration {
     # See https://wiki.hyprland.org/Configuring/Variables/ for more
 
-    rounding = 1
+    rounding = 10
     
     blur {
         enabled = false

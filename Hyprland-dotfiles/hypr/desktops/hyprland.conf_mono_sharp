@@ -59,9 +59,9 @@ general {
     gaps_in = 5
     gaps_out = 20 
     border_size = 3
-    col.active_border =rgba(881dccaa) rgba(ffa62daa) 45deg
+    #col.active_border =rgba(881dccaa) rgba(ffa62daa) 45deg
     col.inactive_border = rgba(595959aa)
-    #col.active_border = rgba(ffffffff) rgba(99999999) 45deg
+    col.active_border = rgba(ffffffff) rgba(99999999) 45deg
     #col.active_border = rgba(a7b333ee) rgba(a6e194ee) rgba(dfac4eee) 45deg
     #col.inactive_border = rgba(43413Bee)
 

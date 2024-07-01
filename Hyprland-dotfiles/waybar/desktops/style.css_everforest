@@ -31,14 +31,12 @@ tooltip {
 #cpu,
 #memory,
 #temperature,
-#custom-notification,
-#language,
-#custom-theme {
+#custom-notification {
     color: #d4be98;
     background: #282b2c;
     padding: 0px 10px;
-    margin-top: 8px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 8px;
     margin-left: 2px;
     margin-right: 2px;
     border: 2px solid #43413B;
@@ -51,8 +49,8 @@ tooltip {
     color: #d4be98;
     background: #282b2c;
     padding: 0px 15px 0px 10px;;
-    margin-top: 8px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 8px;
     margin-left: 2px;
     margin-right: 2px;
     border: 2px solid #43413B;
@@ -74,11 +72,11 @@ tooltip {
 }
 
 #power-profiles-daemon {
-    color: #674499;
+    color: #A9B665;
     background: #282b2c;
     padding: 0px 17px 0px 10px;;
-    margin-top: 8px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 8px;
     margin-left: 2px;
     margin-right: 2px;
     border: 2px solid #43413B;
@@ -99,11 +97,11 @@ tooltip {
 }
 
 #custom-appmenu {
-    color: #674499;
+    color: #A9B665;
     background: #282b2c;
     padding: 0px 14px 0px 10px;
-    margin-top: 8px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 8px;
     margin-left: 8px;
     margin-right: 2px;
     border: 2px solid #43413B;
@@ -112,11 +110,11 @@ tooltip {
 }
 
 #custom-power {
-    color: #674499;
+    color: #A9B665;
     background: #282b2c;
     padding: 0px 13px 0px 10px;
-    margin-top: 8px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
     margin-left: 2px;
     margin-right: 8px;
     border: 2px solid #43413B;
@@ -133,8 +131,8 @@ tooltip,
 #workspaces {
     color: #d4be98;
     padding: 0px 10px 0px 0px;
-    margin-top: 8px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 8px;
     margin-left: 2px;
     margin-right: 2px;
     background-color: #282b2c;
@@ -148,7 +146,7 @@ tooltip,
 #workspaces button.active {
     color: #181825;
     border-radius: 7px;
-    background-color: #674499;
+    background-color: #a9b665;
 }
 #workspaces button.focused {
     color: #A9B665;

@@ -91,7 +91,7 @@
   },
   "custom/appmenu": {
     "format": "󰣇", // always run; consider advanced run conditions
-    "on-click": "wofi", // update system
+    "on-click": "rofi -show drun", // update system
     "signal": 8
   },
   "custom/weather": {
@@ -159,7 +159,7 @@
     "scroll-step": 5
   },
   "custom/theme": {
-	"format": "  ",
+	"format": "theme",
 	"on-click": "foot hyprland_theme_switcher"
   }
 }

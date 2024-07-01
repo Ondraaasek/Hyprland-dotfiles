@@ -1,6 +1,6 @@
 {
   "layer": "top",
-  "position": "top",
+  "position": "bottom",
   "mode": "dock",
   "exclusive": true,
   "passthrough": false,
@@ -12,9 +12,7 @@
     "power-profiles-daemon",
     "cpu",
     "memory",
-    "temperature",
-    "hyprland/language",
-    "custom/theme"
+    "temperature"
   ],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
@@ -91,7 +89,7 @@
   },
   "custom/appmenu": {
     "format": "󰣇", // always run; consider advanced run conditions
-    "on-click": "wofi", // update system
+    "on-click": "rofi -show drun", // update system
     "signal": 8
   },
   "custom/weather": {
@@ -157,9 +155,5 @@
     "on-scroll-up": "pamixer --default-source -i 5",
     "on-scroll-down": "pamixer --default-source -d 5",
     "scroll-step": 5
-  },
-  "custom/theme": {
-	"format": "  ",
-	"on-click": "foot hyprland_theme_switcher"
   }
 }

@@ -74,7 +74,7 @@ tooltip {
 }
 
 #power-profiles-daemon {
-    color: #674499;
+    color: #FFFFFF;
     background: #282b2c;
     padding: 0px 17px 0px 10px;;
     margin-top: 8px;
@@ -99,7 +99,7 @@ tooltip {
 }
 
 #custom-appmenu {
-    color: #674499;
+    color: #FFFFFF;
     background: #282b2c;
     padding: 0px 14px 0px 10px;
     margin-top: 8px;
@@ -112,7 +112,7 @@ tooltip {
 }
 
 #custom-power {
-    color: #674499;
+    color: #FFFFFF;
     background: #282b2c;
     padding: 0px 13px 0px 10px;
     margin-top: 8px;
@@ -148,7 +148,7 @@ tooltip,
 #workspaces button.active {
     color: #181825;
     border-radius: 7px;
-    background-color: #674499;
+    background-color: #FFFFFF;
 }
 #workspaces button.focused {
     color: #A9B665;
