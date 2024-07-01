@@ -15,6 +15,7 @@ Dependency list:
   - powerlevel10k
   - nerd-fonts
   - wlogout
+  - nemo
 
 My reccomendations:
   - nwg-look
