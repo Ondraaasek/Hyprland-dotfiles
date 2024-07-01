@@ -1,0 +1,24 @@
+#!/bin/bash
+
+PS3='Please select theme: '
+options=("Purple" "White" "Dwm" "Quit")
+select theme in "${options[@]}"; do
+    case $REPLY in
+	    1)
+            hyprland_purple
+	    ;;
+	    2)
+	    hyprland_white
+	    ;;
+            3)
+	    hyprland_dwm
+	    ;;
+            4)
+            echo 'Bye!' >&2
+            exit
+            ;;
+   esac
+
+   echo 'Theme set to' "$theme" >&2
+
+done
