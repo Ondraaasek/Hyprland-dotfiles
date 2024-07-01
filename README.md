@@ -1,9 +1,9 @@
 These are my Hyprland dotfiles.
-They contain configs for btop, hypr, kitty, nvim, ranger, waybar, and wofi.
+They contain my configs and my own binaries, so put the configs in ~/.config/ and the binaries in /bin/
 Dependency list:
   - Hyprland
   - Waybar
-  - Kitty
+  - Foot
   - swww
   - btop
   - nvim
@@ -14,10 +14,9 @@ Dependency list:
   - oh-my-zsh
   - powerlevel10k
   - nerd-fonts
+  - wlogout
 
 My reccomendations:
-  - Brave browser
-  - wlogout
   - nwg-look
   - vscode
   - pulseaudio
