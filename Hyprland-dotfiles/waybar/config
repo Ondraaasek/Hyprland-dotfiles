@@ -8,8 +8,7 @@
   "height": 0,
   "modules-left": [
     "custom/appmenu",
-    // "custom/weather",
-    "power-profiles-daemon",
+    //"power-profiles-daemon",
     "cpu",
     "memory",
     "temperature",
@@ -31,8 +30,6 @@
     //"custom/notification"
   ],
 
-  // █▀▄▀█ █▀█ █▀▄ █ █ █  █▀▀
-  // █░▀░█ █▄█ █▄▀ █▄█ █▄ ██▄
   "network": {
     "format-wifi": "󰤨",
     "format-disconnected": "󰤭",
@@ -94,19 +91,11 @@
     "on-click": "wofi", // update system
     "signal": 8
   },
-  "custom/weather": {
-    "tooltip": true,
-    "format": "{}",
-    "interval": 30,
-    "exec": "~/.config/waybar/scripts/waybar-wttr.py",
-    "return-type": "json"
-  },
   "tray": {
     "icon-size": 13,
     "spacing": 10
   },
   "clock": {
-    // "timezone": "America/New_York",
     "tooltip-format": "<big>{clock} {AMPM}</big>\n<tt><small>{:%Y %B}</small></tt>\n<tt><small>{calendar}</small></tt>",
     "format": "<b>{:%I:%M %p}</b>",
     "format-alt": "{:%Y-%m-%d | %I:%M %p}"
